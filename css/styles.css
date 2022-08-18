@@ -110,7 +110,7 @@ font-family: 'Roboto', sans-serif;
         color: #757575;
 }
 
-.secondary-article{
+.secondary-artile{
     font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 700;
@@ -242,4 +242,27 @@ font-family: 'Roboto', sans-serif;
 .portfolio-button:hover,
 .portfolio-button:focus{
     color:#FFFFFF
+}
+
+.portfolio-button{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+
+    background: #F5F4FA;
+        border-radius: 4px;
+        cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus{
+    background-color: #2196F3;
 }
