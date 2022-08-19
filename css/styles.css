@@ -83,6 +83,7 @@ font-family: 'Roboto', sans-serif;
     
         color: #FFFFFF;
         background-color: #2196F3;
+        cursor: pointer;
 }
 
 .main-text{
@@ -265,4 +266,8 @@ font-family: 'Roboto', sans-serif;
 .portfolio-button:hover,
 .portfolio-button:focus{
     background-color: #2196F3;
+}
+
+.main-section{
+font-family: 'Roboto', sans-serif;
 }
