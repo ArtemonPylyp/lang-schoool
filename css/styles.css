@@ -62,10 +62,16 @@ font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 
     color: #FFFFFF;
+    position: absolute;
+        width: 696px;
+        height: 120px;
+        left: 452px;
+        top: 280px;
 }
-
 .first-page{
     background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
 }
 
 .page-button{
@@ -84,6 +90,8 @@ font-family: 'Roboto', sans-serif;
         color: #FFFFFF;
         background-color: #2196F3;
         cursor: pointer;
+        display: flex;
+        margin-top: 140px;
 }
 
 .main-text{
@@ -95,7 +103,10 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     
-        color: #212121
+        color: #212121;
+        display: flex;
+        gap: 30px;
+        margin-bottom: 10px;
 }
 
 .second-text{
@@ -121,6 +132,7 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.03em;
     
         color: #212121;
+        padding-top: 94px;
 }
 
 .names{
@@ -134,6 +146,12 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.03em;
     
         color: #212121;
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        gap: 183px;
+        justify-content: center;
+        
 }
 
 .names-work{
@@ -147,6 +165,11 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.03em;
     
         color: #757575;
+        display: flex;
+        padding-bottom: 30px;
+        gap: 162px;
+        justify-content: center;
+        
 }
 
 .footer-link-adress{
@@ -203,6 +226,8 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.06em;
     
         color: #212121;
+        display: flex;
+        gap: 78px;
 }
 
 .portfolio-work-names{
@@ -216,6 +241,8 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.03em;
     
         color: #757575;
+        display: flex;
+        gap: 78px;
 }
 
 .menu-link:hover,
@@ -270,4 +297,180 @@ font-family: 'Roboto', sans-serif;
 
 .main-section{
 font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+ul, ol{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 0%;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-container {
+display: flex;
+flex-direction: row;
+}
+
+.menu-containers {
+    display: flex;
+    margin-left: 93px;
+    gap: 50px;
+    margin-right: 344px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    
+}
+
+.header-links-container {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.first-page-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 200px;
+    padding-bottom: 280px;
+
+}
+
+.logo-container {
+    display: flex;
+    margin-bottom: 24px;
+    margin-top: 25px;
+}
+
+.page-button-container {
+    display: flex;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-text-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-container {
+    display: flex;
+    padding-top: 94px;
+    gap: 30px;
+    padding-bottom: 94px;
+
+}
+
+.list-pictures-container {
+    display:flex;
+    padding-top: 50px;
+    padding-bottom: 94px;
+    gap: 30px;
+
+}
+
+.Our-Team-Page {
+    background-color: #F5F4FA;
+}
+
+.Our-Team-Page-container {
+    display: flex;
+    padding-top: 50px;
+    gap: 30px;
+    padding-bottom: 94px;
+}
+
+.footer-logo {
+display: flex;
+padding-top: 60px;
+margin-bottom: 20px;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction:column ;
+    gap: 9px;
+    padding-bottom: 60px;
+}
+
+.menu-containers-portfolio {
+    display: flex;
+    gap: 50px;
+
+}
+
+.portfolio-nav {
+    display: flex;
+    gap: 93px;
+}
+
+
+.header-portfolio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links-portfolio {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+.menu-list-portfolio {
+    display: flex;
+    gap: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.logo-portfolio {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.main-portfolio-section {
+    background-color: #F5F5F5;
+}
+
+.portfolio-main-menu {
+    display: flex;
+    gap: 8px;
+    padding-top: 94px;
+    justify-content: center;
+    
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 94px;
+    
+}
+
+.footer-portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.portfolio-footer-logo {
+    display: flex;
+    padding-top: 60px;
+    margin-bottom: 20px;
 }
