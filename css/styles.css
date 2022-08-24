@@ -62,16 +62,13 @@ font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 
     color: #FFFFFF;
-    position: absolute;
-        width: 696px;
-        height: 120px;
-        left: 452px;
-        top: 280px;
+    margin-bottom: 30px;
 }
+
 .first-page{
     background-color: #2F303A;
-    width: 1600px;
-    height: 600px;
+    padding-bottom: 200px;
+    padding-top: 200px;
 }
 
 .page-button{
@@ -90,8 +87,10 @@ font-family: 'Roboto', sans-serif;
         color: #FFFFFF;
         background-color: #2196F3;
         cursor: pointer;
-        display: flex;
-        margin-top: 140px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 32px;
+        padding-right: 32px;
 }
 
 .main-text{
@@ -132,7 +131,7 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.03em;
     
         color: #212121;
-        padding-top: 94px;
+        margin-bottom: 50px;
 }
 
 .names{
@@ -147,7 +146,7 @@ font-family: 'Roboto', sans-serif;
     
         color: #212121;
         display: flex;
-        margin-top: 30px;
+        padding-top: 30px;
         margin-bottom: 10px;
         gap: 183px;
         justify-content: center;
@@ -200,6 +199,8 @@ font-family: 'Roboto', sans-serif;
 
 .main-footer{
     background-color: #2F303A;;
+    padding-top: 10px;
+    padding-bottom: 60px;
 }
 
 .portfolio-menu{
@@ -228,6 +229,7 @@ font-family: 'Roboto', sans-serif;
         color: #212121;
         display: flex;
         gap: 78px;
+        margin-bottom: 4px;
 }
 
 .portfolio-work-names{
@@ -285,8 +287,9 @@ font-family: 'Roboto', sans-serif;
     
         color: #212121;
 
-    background: #F5F4FA;
+    background:rgba(245, 244, 250, 1);
         border-radius: 4px;
+        border-color: rgba(245, 244, 250, 1);
         cursor: pointer;
 }
 
@@ -311,7 +314,9 @@ ul, ol{
 }
 
 .container {
-    width: 1170px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -325,46 +330,33 @@ flex-direction: row;
     display: flex;
     margin-left: 93px;
     gap: 50px;
-    margin-right: 344px;
-    margin-bottom: 32px;
-    margin-top: 32px;
-    
+    padding-top: 32px;
+}
+
+.header-menu-links {
+    display: flex;
+    gap: 344px;
 }
 
 .header-links-container {
     display: flex;
     gap: 50px;
-    margin-bottom: 32px;
-    margin-top: 32px;
+    padding-top: 32px;
 }
 
-.first-page-container {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding-top: 200px;
-    padding-bottom: 280px;
-
-}
 
 .logo-container {
     display: flex;
-    margin-bottom: 24px;
-    margin-top: 25px;
+    padding-bottom: 24px;
+    padding-top: 25px;
+    align-items: center;
 }
 
 .page-button-container {
-    display: flex;
-    margin-bottom: 200px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.article-text-container {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .list-container {
     display: flex;
@@ -376,21 +368,21 @@ flex-direction: row;
 
 .list-pictures-container {
     display:flex;
-    padding-top: 50px;
-    padding-bottom: 94px;
     gap: 30px;
+    max-width: 100%;
+    height: auto;
 
 }
 
-.Our-Team-Page {
+.our-team-page {
     background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
-.Our-Team-Page-container {
+.our-team-page-container {
     display: flex;
-    padding-top: 50px;
     gap: 30px;
-    padding-bottom: 94px;
 }
 
 .footer-logo {
@@ -403,7 +395,6 @@ margin-bottom: 20px;
     display: flex;
     flex-direction:column ;
     gap: 9px;
-    padding-bottom: 60px;
 }
 
 .menu-containers-portfolio {
@@ -443,13 +434,14 @@ margin-bottom: 20px;
 }
 
 .main-portfolio-section {
-    background-color: #F5F5F5;
+padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .portfolio-main-menu {
     display: flex;
     gap: 8px;
-    padding-top: 94px;
+    margin-bottom: 50px;
     justify-content: center;
     
 }
@@ -458,9 +450,6 @@ margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-top: 50px;
-    padding-bottom: 94px;
-    
 }
 
 .footer-portfolio {
@@ -473,4 +462,26 @@ margin-bottom: 20px;
     display: flex;
     padding-top: 60px;
     margin-bottom: 20px;
+}
+
+.portfolios-work-brand-names {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-left: 1px solid #EEEEEE ;
+    border-right: 1px solid #EEEEEE ;
+    border-bottom: 1px solid #EEEEEE ;
+}
+
+.images-section {
+    padding-bottom: 94px;
+}
+
+.border-images {
+    background: #FFFFFF;
+        /* material shadow v1 */
+    
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
 }
