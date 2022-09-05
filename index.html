@@ -19,9 +19,9 @@
                 Web<span style="color: #000000;">Studio</span>
             </a>
             <ul class="menu-list menu-containers">
-                <li><a class="menu-link" href="./index.html">Студія</a></li>
-                <li><a class="menu-link" href="./portfolio.html">Портфоліо</a></li>
-                <li><a class="menu-link" href="">Контакти</a></li>
+                <li class="studio-link"><a class="menu-link menu-link-studio" href="./index.html">Студія</a></li>
+                <li class="portfolio-link"><a class="menu-link menu-link-portfolio" href="./portfolio.html">Портфоліо</a></li>
+                <li class="contacts-link"><a class="menu-link menu-link-contacts" href="">Контакти</a></li>
             </ul>
         </nav>
         <ul class="header-links">
@@ -46,7 +46,7 @@
     <section class="first-page">
         <div class="container first-page-container">
     <h1 class="article-text article-text-container">Ефективні рішення для вашого бізнесу</h1>
-    <button class="page-button page-button-container" type="button">Замовити послугу</button>
+    <button class="page-button page-button-container" type="button" data-modal-open>Замовити послугу</button>
     </div>
     </section>
 
@@ -97,9 +97,12 @@
         <div class="container">
         <h2 class="secondary-artile secondary-artile-container">Чим ми займаємося</h2>
    <ul class="list list-pictures-container">
-    <li><img src="./images/img.jpg" alt="Написання коду" width="370" ></li>
-    <li><img src="./images/img2.jpg" alt="Оптимізація"  width="370" ></li>
-    <li><img src="./images/img3.jpg" alt="Розробка дизайну" width="370" m></li>
+    <li class="secondary-artile-li"><img src="./images/img.jpg" alt="Написання коду" width="370" class="" >
+    <p class="list-pictures-overlay">Десктопні додатки</p></li>
+    <li class="secondary-artile-li"><img src="./images/img2.jpg" alt="Оптимізація"  width="370" >
+    <p class="list-pictures-overlay">Мобільні додатки</p></li>
+    <li class="secondary-artile-li"><img src="./images/img3.jpg" alt="Розробка дизайну" width="370" m>
+    <p class="list-pictures-overlay">Дизайнерські рішення</p></li>
    </ul>
         </div>
     </section>
@@ -352,5 +355,15 @@
 </div>
 </div>
 </footer>
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+            <svg class="modal-close-icon" width="18" height="18">
+                <use href="./images/sprite.svg#icon-close"></use>
+            </svg>
+        </button>
+    </div>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
