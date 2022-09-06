@@ -54,10 +54,11 @@ img {
 
 }
 
-.menu-link::before{
+/*.menu-link::before{
 content: '';
 display: block;
 }
+
 
 .menu-link::after {
     display: block;
@@ -67,11 +68,12 @@ display: block;
     background-color: transparent;
     border-radius: 2px;
     margin-top: 28px;
+    position:absolute
 }
  
 .menu-link:hover::after {
     background-color: #2196F3;
-}
+}*/
       
 
 .menu-link:hover,
@@ -79,6 +81,14 @@ display: block;
 color: #2196F3;
 }
 
+.studio-link {
+    position:relative
+}
+
+.menu-link-studio:active {
+ color: #2196F3;
+ 
+}
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -349,7 +359,7 @@ font-family: 'Roboto', sans-serif;
         cursor: pointer;
         padding: 6px 22px;
         border-color: transparent;
-        transition: var(--main-transition);
+        transition: var(--main-transition), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button:hover,
@@ -495,7 +505,7 @@ padding-bottom: 94px;
 .portfolio-img-link {
     display: block;
     text-decoration: none;
-    transition: var(--main-transition);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-img-link:hover {
@@ -752,7 +762,8 @@ border-radius: 4px;
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
-   
+    transition: var(--main-transition);
+
 }
 
 .social-links-link:hover .social-link-icon {
@@ -772,7 +783,7 @@ border-radius: 4px;
     justify-content: center;
     background-color: #FFFFFF;
     cursor: pointer;
-    transition: var(--main-transition);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Social-links-SVG end*/
@@ -808,6 +819,7 @@ border-radius: 4px;
     fill: #AFB1B8;
     width: 106px;
     height: 60px;
+    transition: var(--main-transition);
 }
 
 .clients-portfolio-link {
@@ -819,7 +831,7 @@ border-radius: 4px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: var(--main-transition);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -865,7 +877,7 @@ border-color: #2196F3;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    transition: var(--main-transition);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-links {
