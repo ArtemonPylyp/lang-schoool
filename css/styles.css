@@ -57,13 +57,33 @@ img {
 
 }
 
-.menu-link::before{
+.menu-link:active{
+    color: #2196F3;
+}
+
+.menu-link-studio::before{
 content: '';
 display: block;
 }
 
+.menu-link-studio::after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color:#2196F3;
+    border-radius: 2px;
+    margin-top: 28px;
+    position:absolute;
+    transform: translateY(-100%);
+}
 
-.menu-link:active:after {
+.menu-link-portfolio::before {
+    content: '';
+    display: block;
+}
+
+.menu-link-portfolio::after {
     display: block;
     content: '';
     width: 100%;
@@ -71,15 +91,19 @@ display: block;
     background-color: #2196F3;
     border-radius: 2px;
     margin-top: 28px;
-    position:absolute;
+    position: absolute;
     transform: translateY(-100%);
 }
 
-.menu-link::after:active {
+
+/*.menu-link-studio:active::after {
     display: block;
+    background-color: #2196F3;
+}*/
+
+.currentLink {
     color: #2196F3;
 }
-
 .menu-link-studio:active {
     display: block;
     color: #2196F3;
@@ -513,7 +537,7 @@ padding-bottom: 94px;
 .portfolio-img-link {
     display: block;
     text-decoration: none;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-img-link:hover {
@@ -616,6 +640,8 @@ transition: var(--main-transition);
 
     color: #757575;
     transition: var(--main-transition);
+    display: flex;
+        align-items: center;
 }
 
 .header-links-list-mail {
@@ -631,6 +657,9 @@ margin-right: 30px;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
+
+        display: flex;
+        align-items: center;
     
         color: #757575;
         transition: var(--main-transition);
@@ -668,7 +697,6 @@ margin-right: 30px;
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    transition: var(--main-transition);
     fill: currentColor;
 }
 
@@ -767,7 +795,7 @@ border-radius: 4px;
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
-    transition: var(--main-transition), var(--fill-transition);
+    transition: var(--fill-transition);
 }
 
 .social-links-link:hover .social-link-icon {
@@ -835,7 +863,7 @@ border-radius: 4px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), var(--border-color-transition);  
+    transition: var(--border-color-transition);  
 }
 
 
