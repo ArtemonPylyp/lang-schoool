@@ -101,7 +101,7 @@
     <p class="list-pictures-overlay">Десктопні додатки</p></li>
     <li class="secondary-artile-li"><img src="./images/img2.jpg" alt="Оптимізація"  width="370" >
     <p class="list-pictures-overlay">Мобільні додатки</p></li>
-    <li class="secondary-artile-li"><img src="./images/img3.jpg" alt="Розробка дизайну" width="370" m>
+    <li class="secondary-artile-li"><img src="./images/img3.jpg" alt="Розробка дизайну" width="370" >
     <p class="list-pictures-overlay">Дизайнерські рішення</p></li>
    </ul>
         </div>
@@ -372,45 +372,45 @@
     <div class="modal">
         <b class="modal-main-text">Залиште свої дані, ми вам передзвонимо</b>
         <form>
-            <label>
-                <p class="over-input-text">Ім'я</p>
+            <label class="modal-lbls">
+                <b class="over-input-text">Ім'я</b>
                 <span class="svg-input-span">
-                    <input class="main-form-input" type="name" name="username"required />
+                    <input class="main-form-input" type="text" name="username" required />
                     <svg class="input-username-svg inputs-svgs">
                         <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
                     </svg>
                 </span>
             </label>
-            <label>
-                <p class="over-input-text">Телефон</p>
+            <label class="modal-lbls">
+                <b class="over-input-text">Телефон</b>
                 <span class="svg-input-span">
-                    <input class="main-form-input" type="phone" name="phone-number" required/>
+                    <input class="main-form-input" type="tel" name="phone-number" required/>
                     <svg class="inputs-svgs">
                         <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
                     </svg>
                 </span>
             </label>
-            <label>
-                <p class="over-input-text">Пошта</p>
+            <label class="modal-lbls">
+                <b class="over-input-text">Пошта</b>
                 <span class="svg-input-span">
-                    <input type="email" name="email" class="main-form-input"required>
+                    <input type="email" name="email" class="main-form-input" required>
                     <svg class="inputs-svgs">
                         <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
                     </svg>
                 </span>
             </label>
-            <label>
-                <p class="over-input-text">Коментар</p>
+            <label class="modal-text-area-lbl ">
+                <b class="over-input-text">Коментар</b>
                 <textarea class="modal-textarea" name="user-comment" placeholder="Введіть текст"></textarea>
             </label>
-            <label class="user-policy">
+            <label class="user-policy ">
                     <input type="checkbox" name="user-policy" class="modal-form-standart-checkbox">
                     <svg class="user-policy-svg">
                         <use href="./images/icons.svg#icon-checkbox-marker" class="checkbox-svg-icon-use"></use>
                     </svg>
-                <p class="user-policy-text">Погоджуюся з розсилкою та приймаю <a class="user-policy-link" href="">Умови договору</a></p>
+                <b class="user-policy-text">Погоджуюся з розсилкою та приймаю <a class="user-policy-link" href="">Умови договору</a></b>
             </label>
-            <button type="submit" class="modal-form-inside-button"> <p class="modal-form-inside-button-text">Відправити</p></button>
+            <button type="submit" class="modal-form-inside-button"> <b class="modal-form-inside-button-text">Відправити</b></button>
         </form>
         <button type="button" class="modal-close-btn" data-modal-close>
             <svg class="modal-close-icon" width="18" height="18">

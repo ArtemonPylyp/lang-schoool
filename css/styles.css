@@ -1005,6 +1005,7 @@ border-color: #2196F3;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border-radius: 4px;
             justify-content: center;
+            cursor: pointer;
 }
 
 .top-right-footer-email-input {
@@ -1165,7 +1166,6 @@ border-color: #2196F3;
     display: block;
     position: relative;
     margin-top: 4px;
-    margin-bottom: 10px;
 }
 
 .over-input-text {
@@ -1182,6 +1182,11 @@ border-color: #2196F3;
         color: #757575;
 }
 
+.modal-text-area-lbl {
+    margin-bottom: 20px;
+    display: block;
+}
+
 .modal-textarea {
     border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px;
@@ -1194,6 +1199,7 @@ border-color: #2196F3;
         outline: none;
         transition: var(--border-color-transition);
         cursor: pointer;
+        display: block;
 }
 
 .modal-textarea:focus {
@@ -1218,8 +1224,8 @@ border-color: #2196F3;
     display: flex;
     gap: 8.38px;
     justify-content: center;
-    margin-top: 20px;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .custom-user-policy-checkbox {
@@ -1272,6 +1278,11 @@ border-color: #2196F3;
     border-color: #2196F3;
 }*/
 
+.modal-lbls {
+  display: block; 
+  margin-bottom: 10px;
+}
+
 .modal-form-inside-button {
     width: 200px;
     height: 50px;
@@ -1279,7 +1290,6 @@ border-color: #2196F3;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         border-color: transparent;
-        margin-top: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
