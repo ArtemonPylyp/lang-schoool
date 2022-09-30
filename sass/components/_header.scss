@@ -1,3 +1,55 @@
+@media screen and (max-width: 767px) {
+    .menu-list,
+    .menu-containers,
+    .header-links {
+        display: none;
+    }
+
+    .web-header__svg-phone{
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    
+}
+
+.menu-list {
+    margin-left: 88px;
+    display: flex;
+    gap: 51px;
+    padding: 0;
+}
+
+@media screen and (max-width:767px) {
+    .menu-list {
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px) {
+.phone-container {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .mobile-header__button {
+            display: none;
+        }
+}
+.mobile-header__button {
+    background-color: transparent;
+    border:none;
+}
+
+
+
+
+@media screen and (min-width:768px) {
+    
+
 .menu-link {
     display: block;
     font-family: 'Roboto', sans-serif;
@@ -54,16 +106,17 @@
     position: absolute;
     transform: translateY(-100%);
 }
+}
 
-
-/*.menu-link-studio:active::after {
-    display: block;
-    background-color: #2196F3;
-}*/
-
+// /*.menu-link-studio:active::after {
+//     display: block;
+//     background-color: #2196F3;
+// }*/
 .currentLink {
     color: #2196F3;
 }
+
+@media screen and (min-width:768px) {
 
 .menu-link-studio:active {
     display: block;
@@ -108,6 +161,12 @@
     justify-content: space-between;
 }
 
+@media screen and (min-width:1200px) {
+    .header-container{
+        margin-left: 200px;
+    }
+}
+
 .header-portfolio {
     display: flex;
     justify-content: space-between;
@@ -143,6 +202,17 @@
     display: flex;
     fill: #757575;
     align-items: baseline;
+    flex-direction: column;
+    gap:10px;
+    padding: 0;
+    margin-left: 96px;
+}
+
+@media screen and (min-width:1200px) {
+    .header-links {
+        flex-direction: row;
+        margin-left: 315px;
+    }
 }
 
 
@@ -162,8 +232,8 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 14px;
     letter-spacing: 0.02em;
 
     color: #757575;
@@ -175,6 +245,11 @@
 .header-links-list-mail {
     margin-right: 30px;
 }
+@media screen and (max-width:1199px) {
+    .header-links-list-mail{
+        margin-right: 0;
+    }
+}
 
 
 
@@ -182,8 +257,8 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 14px;
     letter-spacing: 0.02em;
 
     display: flex;
@@ -252,4 +327,5 @@
 
 .header-links-portfolio-main {
     display: flex;
+}
 }

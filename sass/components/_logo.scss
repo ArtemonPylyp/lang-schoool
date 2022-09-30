@@ -1,3 +1,12 @@
+@media screen and (max-width:768px) {
+    .phone-logo {
+            width: 134px;
+            height: 28px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -10,6 +19,16 @@
 
     color: #2196F3;
 }
+@media screen and (max-width:1199px) {
+    .logo{
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 1200px) {
+    
 
 .logo-container {
     display: flex;
@@ -36,6 +55,13 @@
 .logo {
     text-decoration: none;
 }
+@media screen and (max-width:767px) {
+   .mobile-footer-logo{
+    margin-left: 50px;
+   }
+    
+}
+
 
 .logo-container {
     display: flex;
@@ -47,9 +73,17 @@
 .footer-logo {
     display: flex;
     margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+@media screen and (min-width:1200px) {
+    .footer-logo {
+        margin-left: 215px;
+    }
 }
 
 .logo-portfolio {
     padding-top: 24px;
     padding-bottom: 25px;
+}
 }

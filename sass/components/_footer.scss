@@ -36,6 +36,19 @@
     }
 }
 
+@media screen and (min-width:768px) {
+.footer-link{
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media screen and (min-width:1200px) {
+    .footer-link{
+       justify-content: unset;
+    }
+}
+
 .main-footer {
     background-color: #2F303A;
     ;
@@ -51,6 +64,14 @@
     display: flex;
     flex-direction: column;
     gap: 9px;
+}
+
+@media screen and (min-width:1200px){
+    .footer-list {
+        padding-left: 0;
+        margin-left: 215px;
+        margin-top: 0;
+    }
 }
 
 .footer-portfolio {
@@ -70,6 +91,34 @@
     text-transform: uppercase;
 
     color: #FFFFFF;
+}
+
+@media screen and (min-width:768px){
+    .footer-social-links-word{
+        justify-content: center;
+        margin-left: 40px;
+        display: flex;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .footer-social-links-word {
+        justify-content: unset;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .footer-link {
+     display: flex;
+     justify-content: center;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .footer-social-links-word {
+        margin-left: 54px;
+    }
 }
 
 
@@ -101,6 +150,12 @@
     gap: 10px;
 }
 
+@media screen and (min-width:768px) {
+    .footer-social-links{
+        margin-top: 0;
+    }
+}
+
 .main-footer-links-list {
     display: flex;
     gap: 88px;
@@ -112,16 +167,73 @@
     margin-left: auto;
 }
 
+@media screen and (min-width:768px) {
+    .top-right-part-footer{
+       margin-left: 166px; 
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .top-right-part-footer {
+        margin-left: 93px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .top-right-part-footer {
+        margin-left: 0;
+    }
+    
+}
+
 .footer-container {
     display: flex;
     gap: 70px;
     align-items: baseline;
+}
+@media screen and (min-width:768px) {
+    .footer-container{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .footer-container {
+       flex-wrap: nowrap;
+       gap: 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    
 }
 
 .right-part-footer {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .right-part-footer{
+        margin-left: 90px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .right-part-footer {
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .right-part-footer{
+        margin-left: 113px;
+    }
+    
 }
 
 .top-right-footer-text {
@@ -137,6 +249,24 @@
     margin-bottom: 20px;
 }
 
+@media screen and (min-width:768px) {
+    .top-right-footer-text{
+        margin-left: 120px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .top-right-footer-text {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .top-right-footer-text {
+        margin-left: 126px;
+    }
+}
+
 
 
 .top-right-footer-svg-icon {
@@ -148,6 +278,29 @@
 .top-right-footer-form {
     display: flex;
     gap: 12px;
+    margin-right: 180px
+}
+
+@media screen and (min-width:768px) {
+    .top-right-footer-form{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .top-right-footer-form{
+        flex-direction: row;
+        gap: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .top-right-footer-form {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
 
 .top-right-footer-button {
@@ -173,6 +326,25 @@
     border-radius: 4px;
     justify-content: center;
     cursor: pointer;
+}
+
+@media screen and (min-width:768px) {
+    .top-right-footer-button{
+        margin-left: 120px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .top-right-footer-button {
+        margin-left: 12px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .top-right-footer-button{
+        margin-left: 129px;
+    }
+    
 }
 
 .top-right-footer-email-input {
@@ -209,3 +381,36 @@
                 }
 }
 
+@media screen and (min-width:768px) {
+    .top-right-footer-email-input{
+        width: 450px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .top-right-footer-email-input{
+        width: 358px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .top-right-footer-email-input{
+        width:450px
+    }
+}
+
+@media screen and (max-width:767px) {
+    .left-part-footer {
+        margin-left: 113px;
+    }
+}
+
+.left-part-footer {
+    margin-left: 30px;
+}
+
+@media screen and (min-width:1200px) {
+    .left-part-footer{
+        margin-left: 0;
+    }
+}

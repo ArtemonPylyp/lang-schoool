@@ -3,6 +3,11 @@
     gap: 30px;
 }
 
+@media screen and (max-width:767px) {
+    .mobile-container {
+            padding: 0;
+        }
+}
 .antenna-div {
     display: flex;
     width: 270px;
@@ -15,6 +20,25 @@
     border-radius: 4px;
 }
 
+@media screen and (max-width: 767px) {
+    .antenna-div {
+    width: auto;
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+    .antenna-div {
+        width: 354px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .antenna-div{
+        width: 270px;
+    }
+}
+
 .time-div {
     display: flex;
     width: 270px;
@@ -25,6 +49,23 @@
 
     background: #F5F4FA;
     border-radius: 4px;
+}
+@media screen and (max-width:767px) {
+    .time-div {
+        width: auto;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .time-div {
+        width: 354px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .time-div {
+        width: 270px;
+    }
 }
 
 
@@ -39,6 +80,24 @@
     justify-content: center;
 }
 
+@media screen and (max-width:767px) {
+    .chart-div {
+        width: auto;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .chart-div {
+        width: 354px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .chart-div {
+        width: 270px;
+    }
+}
+
 .man-div {
     display: flex;
     width: 270px;
@@ -49,4 +108,22 @@
 
     background: #F5F4FA;
     border-radius: 4px;
+}
+
+@media screen and (max-width:767px) {
+    .man-div {
+        width: auto;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .man-div {
+        width: 354px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .man-div {
+        width: 270px;
+    }
 }

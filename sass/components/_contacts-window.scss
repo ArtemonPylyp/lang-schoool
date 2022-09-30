@@ -22,6 +22,28 @@
     padding: 40px;
 }
 
+@media screen and (min-width:768px) {
+    .modal {
+        width: 450px;
+        height: 609px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .modal {
+        width: 528px;
+        height: 580px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .modal {
+        width: 450px;
+        height: 609px;
+    }
+    
+}
+
 .modal-close-btn {
     position: absolute;
     top: 8px;
@@ -86,6 +108,26 @@
         }
 }
 
+@media screen and (min-width:768px) {
+    .main-form-input{
+        width: 370px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .main-form-input {
+        width: 448px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .main-form-input {
+        width: 370px;
+        height: 40px;
+    }
+    
+}
+
 .modal-main-text {
     display: block;
     font-family: 'Roboto';
@@ -100,6 +142,29 @@
     width: 448px;
     height: 23px;
     margin-bottom: 12px;
+}
+
+@media screen and (min-width:768px) {
+    .modal-main-text{
+        width: 370px;
+        height: 60px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .modal-main-text {
+        width: 448px;
+        height: 23px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .modal-main-text {
+        line-height: 30px;
+        width: 370px;
+        height: 60px;
+    }
+    
 }
 
 .svg-input-span {
@@ -159,6 +224,25 @@
                 }
 }
 
+@media screen and (min-width:768px) {
+    .modal-textarea {
+        width: 370px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .modal-textarea {
+        width: 448px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .modal-textarea {
+        width: 370px;
+        height: 120px;
+    }
+    
+}
 
 
 
@@ -236,6 +320,24 @@
 
 }
 
+@media screen and (min-width:768px) {
+    .modal-form-inside-button{
+        margin-left: 85px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .modal-form-inside-button{
+        margin-left: 125px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .modal-form-inside-button {
+        margin-left: 90px;
+    }
+}
+
 .modal-form-inside-button-text {
     font-family: 'Roboto';
     font-style: normal;
@@ -264,6 +366,27 @@
     letter-spacing: 0.03em;
 
     color: #757575;
+}
+
+@media screen and (min-width:768px) {
+    .user-policy-text{
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .user-policy-text {
+    font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .user-policy-text {
+        font-size: 12px;
+        line-height: 14px;
+    }
 }
 
 .user-policy-link {
