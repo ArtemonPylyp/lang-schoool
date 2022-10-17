@@ -16,9 +16,15 @@
     <header class="page-header">
         <div class="container">
         <div class="logo-header">
-        <img src="" alt="Logo" class="logo__picture">
-        <a href="" class="logo link">Spectrum</a>
+        <picture>
+            <source srcset="./images/logo.jpg 1x, ./images/logo@2x.jpg 2x">
+         <img src="./images/logo.jpg" alt="Logo" class="logo__picture">
+        </picture>
+        <a href="./index.html" class="logo link">Spectrum</a>
         </div>
+        <svg class="mobie-menu-svg">
+            <use href="./images/mobile-menu-button.svg"></use>
+        </svg>
         <nav class="header__navigation">
             <ul class="list">
                 <li><a href="" class="navigation__link link">Головна</a></li>

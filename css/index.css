@@ -60,4 +60,30 @@ button {
     padding-left: 16px;
     padding-right: 16px;
   }
+}
+.page-header {
+  background-color: #19191B;
+}
+
+.logo-header {
+  display: flex;
+  gap: 23px;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 39px;
+  /* identical to box height */
+  text-align: right;
+  color: rgba(255, 255, 255, 0.7);
+  width: 156px;
+  height: 39px;
+  align-self: center;
+}
+
+.mobie-menu-svg {
+  color: #fff;
 }/*# sourceMappingURL=index.css.map */
