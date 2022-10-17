@@ -7,6 +7,12 @@
     gap: 23px;
 }
 
+@media screen and (min-width:768px) {
+    .logo-header {
+        justify-content: center;
+    }
+}
+
 .logo {
     font-family: 'Raleway';
         font-style: normal;
@@ -21,4 +27,25 @@
         width: 156px;
         height: 39px;
         align-self: center;
+}
+
+@media screen and (max-width:767px) {
+    .header__navigation {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .header__button {
+        display: none;
+    }
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+.header__navigation {
+    margin-top: 27.5px;
 }
