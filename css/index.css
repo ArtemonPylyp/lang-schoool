@@ -301,6 +301,13 @@ button {
   background-color: #19191B;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .background-image {
+    background-image: url(../images/tablet/hero-boy-tablet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
 .left-part-hero {
   padding-top: 40.5px;
 }
@@ -317,6 +324,14 @@ button {
   width: 327px;
 }
 
+@media screen and (min-width: 768px) {
+  .main-text {
+    width: 442px;
+    font-size: 75px;
+    line-height: 78px;
+    color: #DFDFDF;
+  }
+}
 .text {
   font-family: "Nunito Sans";
   font-style: normal;
@@ -326,8 +341,15 @@ button {
   /* or 206% */
   letter-spacing: -0.43573px;
   color: rgba(255, 255, 255, 0.7);
+  margin-top: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .text {
+    font-size: 20px;
+    width: 467px;
+  }
+}
 .hero__button {
   width: 166px;
   background-color: #5454D4;
@@ -343,18 +365,19 @@ button {
   padding-left: 10px;
   margin-top: 20px;
 }
-.hero__button:hover, .hero__button:focus {
-  color: #000;
-}
 
+@media screen and (min-width: 768px) {
+  .hero__button {
+    width: 193px;
+    height: 55px;
+    margin-top: 30px;
+  }
+}
 .button__svg {
   width: 15px;
   height: 17px;
   fill: #fff;
   margin-left: 10px;
-}
-.button__svg:hover, .button__svg:focus {
-  fill: #000;
 }
 
 @media screen and (max-width: 767px) {
