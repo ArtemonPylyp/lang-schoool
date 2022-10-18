@@ -163,4 +163,30 @@ button {
 .header__button:hover, .header__button:focus {
   border-color: #5454D4;
   color: #5454D4;
+}
+
+.mobile-menu-button {
+  background-color: transparent;
+  border: none;
+}
+
+.mobile-menu-svg {
+  width: 24px;
+  height: 24px;
+  fill: #FFFFFF;
+}
+.mobile-menu-svg:hover, .mobile-menu-svg:focus {
+  fill: #5454D4;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu-button {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mobile-header-container {
+    display: flex;
+    justify-content: space-between;
+  }
 }/*# sourceMappingURL=index.css.map */
