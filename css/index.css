@@ -295,4 +295,70 @@ button {
 }
 .mobile-menu__social-link:hover, .mobile-menu__social-link:focus {
   color: #5454D4;
+}
+
+.hero {
+  background-color: #19191B;
+}
+
+.left-part-hero {
+  padding-top: 40.5px;
+}
+
+.main-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 78px;
+  /* or 156% */
+  letter-spacing: 1px;
+  color: #fff;
+  width: 327px;
+}
+
+.text {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 31px;
+  /* or 206% */
+  letter-spacing: -0.43573px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.hero__button {
+  width: 166px;
+  background-color: #5454D4;
+  height: 44px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+.hero__button:hover, .hero__button:focus {
+  color: #000;
+}
+
+.button__svg {
+  width: 15px;
+  height: 17px;
+  fill: #fff;
+  margin-left: 10px;
+}
+.button__svg:hover, .button__svg:focus {
+  fill: #000;
+}
+
+@media screen and (max-width: 767px) {
+  .right-part-hero {
+    display: none;
+  }
 }/*# sourceMappingURL=index.css.map */
