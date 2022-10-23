@@ -301,11 +301,17 @@ button {
   background-color: #19191B;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .background-image {
+@media screen and (min-width: 768px) and (max-width: 1299px) {
+  .bg__hero {
     background-image: url(../images/tablet/hero-boy-tablet.png);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-position: 290px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 300px;
   }
 }
 .left-part-hero {
@@ -380,8 +386,48 @@ button {
   margin-left: 10px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .right-part-hero {
     display: none;
   }
+}
+.right-part-hero {
+  position: relative;
+  background-color: #19191B;
+}
+
+.sub-rectangle__hero {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  width: 218px;
+  height: 218px;
+}
+
+.rectangle__hero {
+  position: absolute;
+  width: 218px;
+  height: 218px;
+  left: 40px;
+  top: 120px;
+  z-index: 10;
+}
+
+.hero__picture {
+  width: 218px;
+  position: absolute;
+  z-index: 11;
+  top: 53px;
+  left: 40px;
+}
+
+@media screen and (max-width: 1299px) {
+  .right-part-hero-desktop {
+    display: none;
+  }
+}
+.right-part-hero-desktop {
+  position: absolute;
+  top: 140px;
+  right: 150px;
 }/*# sourceMappingURL=index.css.map */

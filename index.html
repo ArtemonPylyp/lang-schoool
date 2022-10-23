@@ -70,9 +70,9 @@
             </div>
         </div>
     </header>
-    <section class="hero">
+    <section class="hero ">
         <div class="container">
-            <div class="background-image"></div>
+            <div class="bg__hero">
             <div class="left-part-hero">
             <h1 class="main-text">Мовні курси для кожного</h1>
             <p class="text">Складемо програму навчання, згідно вашим інтересам, підберемо уроки з найактуальніших тем під ваші запити та цілі.</p>
@@ -83,18 +83,28 @@
             </button>
             </div>
             <div class="right-part-hero">
-                <svg>
-                    <use></use>
+                <picture>
+                    <source srcset="./images/mobile/hero-boy-mobile.png 1x, ./images/mobile/hero-boy-mobile@2x.png 2x">
+                    <img src="./images/mobile/hero-boy-mobile.png" alt="hero-boy" class="hero__picture">
+                </picture>
+                <ul>
+                    <li><img src="./images/background-hero.png" alt="rectangle__hero" class="rectangle__hero"></li>
+                    <li><img src="./images/sub-background-hero.png" alt="sub-rectangle__hero" class="sub-rectangle__hero"></li>
+                </ul>
+                <svg class="hero-svg">
+                    <use href=""></use>
                 </svg>
                 <svg>
                     <use></use>
                 </svg>
-                <svg>
-                    <use></use>
-                </svg>
-                <svg>
-                    <use></use>
-                </svg>
+                
+            </div>
+            <div class="right-part-hero-desktop">
+                <picture>
+                    <source srcset="./images/desktop/hero-boy-desktop.png 1x, ./images/desktop/hero-boy-desktop@2x.png 2x">
+                    <img src="./images/desktop/hero-boy-desktop.png" alt="man-photo">
+                </picture>
+            </div>
             </div>
         </div>
     </section>
