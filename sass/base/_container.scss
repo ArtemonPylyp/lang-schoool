@@ -2,31 +2,30 @@
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-@media screen and (min-width:480px) {
+@media screen and (min-width:400px) {
     .container {
-        width: 480px;
-        margin-left: auto;
-        margin-right: auto;
+        width: 400px;
         padding-left: 20px;
         padding-right: 20px;
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:770px) {
     .container {
-        width: 768px;
-        padding-left: 34px;
-        padding-right: 34px;
+        width: 710px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
 @media screen and (min-width:1300px) {
     .container {
-        width: 1200px;
-        padding-left: 116px;
-        padding-right: 116px;
+        width: 1300px;
+        
     }
 }

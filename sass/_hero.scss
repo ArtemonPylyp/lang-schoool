@@ -1,27 +1,6 @@
-.hero {
-    background-color:#19191B;
-}
+//mobile version
 
-@media screen and (min-width:768px) and (max-width:1299px) {
-    .bg__hero {
-        background-image: url(../images/tablet/hero-boy-tablet.png);
-        background-repeat: no-repeat;
-        background-position: 290px;
-    }
-}
-
-@media screen and (min-width:1200px) {
-    .hero {
-        padding-top: 100px;
-        padding-bottom: 300px;
-    }
-}
-
-.left-part-hero {
-    padding-top: 40.5px;
-}
-
-.main-text {
+.main-article {
     font-family: 'Raleway';
         font-style: normal;
         font-weight: 800;
@@ -31,21 +10,13 @@
     
         letter-spacing: 1px;
     
-        color: #fff;
-        width: 327px;
-
-}
-
-@media screen and (min-width:768px) {
-    .main-text {
-        width: 442px;
-        font-size: 75px;
-        line-height: 78px;
         color: #DFDFDF;
-    }
+        width: 327px;
+        height: 234px;
+        margin-top: 41px;
 }
 
-.text {
+.hero__text {
     font-family: 'Nunito Sans';
         font-style: normal;
         font-weight: 400;
@@ -56,21 +27,20 @@
         letter-spacing: -0.43573px;
     
         color: rgba(255, 255, 255, 0.7);
-        margin-top: 30px;
+        margin-top: 12px;
 }
 
-@media screen and (min-width:768px) {
-    .text {
-        font-size: 20px;
-        width: 467px;
-        
-    } 
-}
-
-.hero__button {
-    width: 166px;
+.hero__btn {
     background-color: #5454D4;
+    border: none;
+    width: 166px;
     height: 44px;
+    margin-top: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
     font-family: 'Nunito Sans';
         font-style: normal;
         font-weight: 700;
@@ -78,74 +48,98 @@
         line-height: 27px;
     
         color: #FFFFFF;
-        display: flex;
-        align-items: center;
         padding-left: 10px;
-        margin-top: 20px;
 
+        &:hover,
+        &:focus {
+            color: #5454D4;
+            background-color: #fff;
+        }
 }
 
+.hero__btn:hover .hero__btn-svg,
+.hero__btn:focus .hero__btn-svg {
+    fill: #5454D4;
+}
+
+.hero__btn-svg {
+    width: 15px;
+    height: 16px;
+    fill: #FFFFFF;
+    margin-left: 8px;
+}
+.hero__img-phone {
+    position: absolute;
+    width: 381px;
+}
+
+
+//mobile-tablet versions settings
+
 @media screen and (min-width:768px) {
-    .hero__button {
+    .hero__img-phone {
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .hero {
+        padding-bottom: 515px;
+    }
+}
+
+//Tablet version
+
+@media screen and (min-width:770px) and (max-width:1299px) {
+    .hero {
+        background-image: url(../images/tablet/hero__bg-tablet.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 100% 0px;
+    }
+}
+
+@media screen and (min-width:770px) {
+    .main-article {
+        font-size: 75px;
+        width: 442px;
+        height: 265px;
+        margin-top: 51px;
+    }
+    .hero__text {
+        font-size: 20px;
+        width: 467px;
+        
+    }
+    .hero__btn {
         width: 193px;
         height: 55px;
-        margin-top: 30px;
+        padding-left: 16px;
+        margin-top: 50px;
+    }
+    .hero__btn-svg {
+        margin-left: 16px;
     }
 }
 
-.button__svg {
-    width: 15px;
-    height: 17px;
-    fill: #fff;
-    margin-left: 10px;
-}
+//Desktop version
 
-@media screen and (min-width:768px) {
-    .right-part-hero {
-        display: none;
+@media screen and (min-width:1300px) {
+    .main-article {
+        margin-top: 80px;
+    }
+    .hero__img-desktop {
+        position: absolute;
+        top: 67px;
+        right: 0;
+        width: 775px;
     }
 }
 
-.right-part-hero {
-    position: relative;
-    background-color:#19191B;
-}
-
-.sub-rectangle__hero {
-    position: absolute;
-    top: 90px;
-    left: 30px;
-    width: 218px;
-    height: 218px;
-
-}
-
-.rectangle__hero {
-    position: absolute;
-    width: 218px;
-    height: 218px;
-    left: 40px;
-    top: 120px;
-    z-index: 10;
-}
-
-.hero__picture {
-    width: 218px;
-    position: absolute;
-    z-index: 11;
-    top: 53px;
-    left: 40px;
-
-}
+//Desktop-version settings
 
 @media screen and (max-width:1299px) {
-    .right-part-hero-desktop {
+    .hero__img-desktop {
         display: none;
     }
-}
-
-.right-part-hero-desktop {
-    position: absolute;
-    top: 140px;
-    right: 150px;
 }
