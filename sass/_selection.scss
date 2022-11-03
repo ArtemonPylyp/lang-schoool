@@ -96,6 +96,7 @@
     border: none;
     color: #E97D24;
     margin-top: 15px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
         color: #5454D4;
@@ -106,6 +107,7 @@
     fill: #E97D24;
     width: 12px;
     height: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     .little-grp__btn:hover &,
     .little-grp__btn:focus & {
         fill: #5454D4;
@@ -199,6 +201,8 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 27px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
         &:hover,
         &:focus {
@@ -212,6 +216,7 @@
     height: 15px;
     fill: #5134FC;
     margin-left: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     .selection-list-last__btn:hover &,
     .selection-list-last__btn:focus & {

@@ -337,6 +337,8 @@ button {
   line-height: 27px;
   color: #FFFFFF;
   padding-left: 10px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero__btn:hover, .hero__btn:focus {
   color: #5454D4;
@@ -501,6 +503,7 @@ button {
   border: none;
   color: #E97D24;
   margin-top: 15px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .little-grp__btn:hover, .little-grp__btn:focus {
   color: #5454D4;
@@ -510,6 +513,7 @@ button {
   fill: #E97D24;
   width: 12px;
   height: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .little-grp__btn:hover .selection__btn-svg, .little-grp__btn:focus .selection__btn-svg {
   fill: #5454D4;
@@ -591,6 +595,8 @@ button {
   margin-left: auto;
   margin-right: auto;
   margin-top: 27px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .selection-list-last__btn:hover, .selection-list-last__btn:focus {
   background-color: #154679;
@@ -602,6 +608,7 @@ button {
   height: 15px;
   fill: #5134FC;
   margin-left: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .selection-list-last__btn:hover .selection-list-last__btn-svg, .selection-list-last__btn:focus .selection-list-last__btn-svg {
   fill: #FFFFFF;
