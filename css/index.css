@@ -273,6 +273,9 @@ button {
     line-height: 20px;
     text-align: center;
     letter-spacing: -0.331985px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #FFFFFF;
   }
   .nav__button:hover, .nav__button:focus {
@@ -1670,6 +1673,14 @@ button {
 /* Footer logo */
 .footer {
   margin-top: 110px;
+}
+
+.footer__link {
+  color: #ffffff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer__link:hover, .footer__link:focus {
+  color: #5454D4;
 }
 
 .footer-company {
