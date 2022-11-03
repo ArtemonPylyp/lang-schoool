@@ -47,6 +47,8 @@
 @media screen and (min-width:1300px) {
     .road-map__desktop {
         width: 100%;
+        position: absolute;
+        left: 0px;
     }
     .road-map__roket-desktop {
         width: 382px;
@@ -57,6 +59,7 @@
     }
     .road-map {
         position: relative;
+        padding-bottom: 750px;
     }
 }
 

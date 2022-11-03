@@ -210,7 +210,7 @@ font-family: 'Rubik';
 
 .reviewes__stars-img {
     position: absolute;
-    top: 210px;
+    top: 290px;
     left: 69%;
     width: 75.59px;
     height: 13.87px;
@@ -218,7 +218,7 @@ font-family: 'Rubik';
 
 .reviewes__stars-img-second {
     position: absolute;
-        top: 240px;
+        top: 290px;
         left: 220px;
         width: 75.59px;
         height: 13.87px;
@@ -226,7 +226,7 @@ font-family: 'Rubik';
 
 .reviewes__stars-img-third {
     position: absolute;
-        top: 230px;
+        top: 260px;
         left: 220px;
         width: 75.59px;
         height: 13.87px;
@@ -249,15 +249,15 @@ font-family: 'Rubik';
     }
     .reviewes__dark {
         width: 359px;
-        height: 296px;
-        margin-left: auto;
+        height: 350px;
+        margin-left: 0;
         position: relative;
-        margin-right: 0;
+        margin-right: auto;
         
     }
     .reviewes-content__main-text-dark {
         width: 287px;
-        height: 150px;
+        height: 215px;
         border-bottom: 1px solid #ffffff3f;
         margin-bottom: 26px;
     }
@@ -267,14 +267,14 @@ font-family: 'Rubik';
     }
     .reviewes__light {
         width: 359px;
-        height: 296px;
-        margin-right: auto;
+        height: 350px;
+        margin-right: 0;
         position: relative;
-        margin-left: 0;
+        margin-left: auto;
     }
     .reviewes-content__main-text-light {
         width: 287px;
-        height: 150px;
+        height: 218px;
         border-bottom: 1px solid #00000016;
         margin-bottom: 26px;
     }
@@ -291,6 +291,7 @@ font-family: 'Rubik';
     }
     .reviewes__stars-img-second {
         top: 230px;
+        left: 250px;
     }
     .reviewes__stars-img-third {
         top: 236px;
@@ -319,5 +320,8 @@ font-family: 'Rubik';
     }
     .reviewes-content__list {
         gap: 30px;
+    }
+    .reviewes__dark {
+        margin-right: 0;
     }
 }

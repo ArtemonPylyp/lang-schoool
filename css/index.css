@@ -286,6 +286,7 @@ button {
     display: flex;
     gap: 150px;
     align-items: center;
+    margin-top: 20px;
   }
   .logo {
     margin-top: 33px;
@@ -391,7 +392,7 @@ button {
   .hero__btn {
     width: 193px;
     height: 55px;
-    padding-left: 16px;
+    padding-left: 25px;
     margin-top: 50px;
   }
   .hero__btn-svg {
@@ -862,6 +863,7 @@ button {
     height: 420px;
     top: 2000px;
     left: 60px;
+    border-radius: 5%;
   }
   .advantages-desktop {
     position: absolute;
@@ -908,6 +910,8 @@ button {
 @media screen and (min-width: 1300px) {
   .road-map__desktop {
     width: 100%;
+    position: absolute;
+    left: 0px;
   }
   .road-map__roket-desktop {
     width: 382px;
@@ -918,6 +922,7 @@ button {
   }
   .road-map {
     position: relative;
+    padding-bottom: 750px;
   }
 }
 @media screen and (max-width: 1299px) {
@@ -969,6 +974,7 @@ button {
   padding-bottom: 26px;
   /* color 6 */
   border-bottom: 1px solid #19191b;
+  width: 90%;
 }
 
 .price__list-individual {
@@ -1398,7 +1404,7 @@ button {
 
 .reviewes__stars-img {
   position: absolute;
-  top: 210px;
+  top: 290px;
   left: 69%;
   width: 75.59px;
   height: 13.87px;
@@ -1406,7 +1412,7 @@ button {
 
 .reviewes__stars-img-second {
   position: absolute;
-  top: 240px;
+  top: 290px;
   left: 220px;
   width: 75.59px;
   height: 13.87px;
@@ -1414,7 +1420,7 @@ button {
 
 .reviewes__stars-img-third {
   position: absolute;
-  top: 230px;
+  top: 260px;
   left: 220px;
   width: 75.59px;
   height: 13.87px;
@@ -1435,14 +1441,14 @@ button {
   }
   .reviewes__dark {
     width: 359px;
-    height: 296px;
-    margin-left: auto;
+    height: 350px;
+    margin-left: 0;
     position: relative;
-    margin-right: 0;
+    margin-right: auto;
   }
   .reviewes-content__main-text-dark {
     width: 287px;
-    height: 150px;
+    height: 215px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2470588235);
     margin-bottom: 26px;
   }
@@ -1452,14 +1458,14 @@ button {
   }
   .reviewes__light {
     width: 359px;
-    height: 296px;
-    margin-right: auto;
+    height: 350px;
+    margin-right: 0;
     position: relative;
-    margin-left: 0;
+    margin-left: auto;
   }
   .reviewes-content__main-text-light {
     width: 287px;
-    height: 150px;
+    height: 218px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.0862745098);
     margin-bottom: 26px;
   }
@@ -1476,6 +1482,7 @@ button {
   }
   .reviewes__stars-img-second {
     top: 230px;
+    left: 250px;
   }
   .reviewes__stars-img-third {
     top: 236px;
@@ -1501,6 +1508,9 @@ button {
   }
   .reviewes-content__list {
     gap: 30px;
+  }
+  .reviewes__dark {
+    margin-right: 0;
   }
 }
 /* Text before form */
@@ -1561,14 +1571,14 @@ button {
 /* Form */
 .form-content_block {
   box-sizing: border-box;
-  width: 373px;
+  width: 353px;
   height: 494px;
   left: -29px;
   top: -27px;
   background: #4d4d4d;
-  border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(218, 218, 252, 0.25);
   border-radius: 10px;
+  padding-top: 5px;
 }
 
 .form-content_text-block {
@@ -1619,6 +1629,7 @@ button {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+  border: none;
   /* identical to box height, or 133% */
   color: #101C26;
 }
@@ -1762,7 +1773,7 @@ button {
 
 .footer-nav_first-discription-list-main {
   padding-bottom: 20px;
-  font-family: "Oswald";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1775,7 +1786,7 @@ button {
 
 .footer-nav_first-discription-list {
   cursor: pointer;
-  font-family: "DM Sans";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1795,7 +1806,7 @@ button {
   align-items: center;
 }
 .footer-social p {
-  font-family: "Oswald";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

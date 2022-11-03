@@ -58,15 +58,15 @@
 
 .form-content_block {
     box-sizing: border-box;
-    width: 373px;
+    width: 353px;
     height: 494px;
     left: -29px;
     top: -27px;
 
     background: #4d4d4d;
-    border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(218, 218, 252, 0.25);
     border-radius: 10px;
+    padding-top: 5px;
 }
 
 .form-content_text-block {
@@ -120,6 +120,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
+    border: none;
     /* identical to box height, or 133% */
 
 
