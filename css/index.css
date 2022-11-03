@@ -405,7 +405,7 @@ button {
   }
   .hero__img-desktop {
     position: absolute;
-    top: 67px;
+    top: 86px;
     right: 0;
     width: 775px;
   }
@@ -822,6 +822,7 @@ button {
   }
   .about-us {
     padding-bottom: 85px;
+    padding-top: 100px;
   }
 }
 @media screen and (min-width: 1300px) {
@@ -1515,7 +1516,7 @@ button {
 }
 /* Text before form */
 .contact-form {
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .contact-form__link {
