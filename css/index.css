@@ -1508,6 +1508,16 @@ button {
   margin-top: 100px;
 }
 
+.contact-form__link {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  font-style: normal;
+  color: #ebeff6;
+  opacity: 60%;
+}
+
 .text-content_main-text {
   font-family: "Raleway";
   font-style: normal;
