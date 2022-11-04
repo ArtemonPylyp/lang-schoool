@@ -360,6 +360,7 @@ button {
 .hero__img-phone {
   position: absolute;
   width: 381px;
+  right: 0px;
 }
 
 @media screen and (min-width: 768px) {
