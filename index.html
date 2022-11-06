@@ -84,7 +84,7 @@
             <h2 class="selection__article">Широкий спектр курсів</h2>
             <ul class="selection__list list">
                 <li class="little-grp tablet-edt little-grp-tabl-edt desktop-edt">
-                    <img src="./images/main/selection__list-little-img.png" alt="little-group-picture" class="little-grp__img">
+                    <img src="./images/main/work.png" alt="little-group-picture" class="little-grp__img">
                     <h3 class="little-grp__article little-grp-tabl-edt-article">Індивідуальні заняття</h3>
                     <p class="little-grp__sub-article little-grp-tabl-edt-sub-article">Персональна программа та темп навчання</p>
                     <a href="#price" class="little-grp__btn link">Обрати курс
@@ -94,7 +94,7 @@
                     </a>
                 </li>
                 <li class="middle-grp tablet-edt middle-grp-tabl-edt desktop-edt">
-                    <img src="./images/main/selection__list-middle-img.png" alt="middle-group-picture" class="little-grp__img">
+                    <img src="./images/main/discussion.png" alt="middle-group-picture" class="little-grp__img">
                     <h3 class="middle-grp__article middle-grp-tabl-edt-article">Маленька група</h3>
                     <p class="middle-grp__sub-article middle-grp-tabl-edt-sub-article">Від 5 до 10 чоловік</p>
                     <a href="#price" class="little-grp__btn link">Обрати курс
@@ -104,7 +104,7 @@
                     </a>
                 </li>
                 <li class="little-grp tablet-edt desktop-edt">
-                    <img src="./images/main/selection__list-higher-img.png" alt="higher-group-picture" class="little-grp__img">
+                    <img src="./images/main/meeting.png" alt="higher-group-picture" class="little-grp__img">
                     <h3 class="little-grp__article">Велика група</h3>
                     <p class="little-grp__sub-article">Від 10 до 15 чоловік</p>
                     <a href="#price" class="little-grp__btn link">Обрати курс
@@ -318,30 +318,61 @@
             </div>
             <div class="form-content">
                 <div class="form-content_block">
-                    <form>
+                    <form id="sentMessage" >
+                        <script>
+                            var form = document.getElementById("sentMessage");
+                            form.addEventListener("submit", function (e) {
+                              e.preventDefault();
+                              emailjs
+                                .sendForm(
+                                  "service_0cqt3z4",
+                                  "template_hlq095h",
+                                  e.target,
+                                  "NDg7MQMHZTj01T4v3"
+                                )
+                                .then(
+                                  (result) => {
+                                    console.log(result);
+                                    Swal.fire({
+                                      icon: "success",
+                                      title: "Ваші дані були надіслані!",
+                                    });
+                                  },
+                                  (error) => {
+                                    console.log(error.text);
+                                    Swal.fire({
+                                      icon: "error",
+                                      title: "Упс, щось пішло не так(",
+                                      text: error.text,
+                                    });
+                                  }
+                                );
+                              e.target.reset();
+                            });
+                          </script>
                         <div class="form-content_text-block">
                             <div class="form-content_text-block_inputs">
                                 <p>Ваше Ім'я</p>
-                                <input required type="text" placeholder="Ivan Ivanov" />
+                                <input  name="name" required type="text" placeholder="Ivan Ivanov" />
                                 <div class="line"></div>
                             </div>
                             <div class="form-content_text-block_inputs">
                                 <p>Ваш номер Телефону</p>
-                                <input required type="text" placeholder="Ivan Ivanov" />
+                                <input  name="phone" required type="text" placeholder="+380 (67) 999 99 99" />
                                 <div class="line"></div>
                             </div>
                             <div class="form-content_text-block_inputs">
                                 <p>Як з Вами зручніше зв'язатися</p>
-                                <input type="text" placeholder="Ivan Ivanov" />
+                                <input  name="type" type="text" placeholder="telegram" />
                                 <div class="line"></div>
                             </div>
                             <div class="form-content_text-block_inputs">
                                 <p>Побажання</p>
-                                <input type="text" placeholder="Ivan Ivanov" />
+                                <input  name="message" type="text" placeholder="Гарного дня!" />
                                 <div class="line"></div>
                             </div>
                         </div>
-                        <button type="submit" class="form-button">Надіслати</button>
+                        <button id="sendButton" type="submit" class="form-button">Надіслати</button>
                     </form>
                 </div>
             </div>
@@ -379,7 +410,7 @@
                 <div class="footer-social_icons">
                     <a href="mailto:SpectrumSchule@gmail.com"><img src="./images/svgs/social-mail.svg" alt="gmail logo" /></a>
                     <a href="https://t.me/ilpicium"><img src="./images/svgs/social-telegram.svg" alt="telegram logo" /></a>
-                    <img src="./images/svgs/social-instagram.svg" alt="instagram logo" />
+                    <a href="https://www.instagram.com/spectrum_schule/"><img src="./images/svgs/social-instagram.svg" alt="instagram logo" /></a>
                 </div>
                 <div class="tech-links">
                     <ul class="tech-links__list list">
