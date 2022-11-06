@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Language school</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="36x36" href="./images/favicon/android-icon-36x36.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +22,7 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@400;500;600&family=Manrope:wght@400;600;700&family=Montserrat:wght@700&family=Nunito+Sans:wght@400;600;700&family=Oswald&family=Raleway:wght@300;400;600;700;800&family=Roboto:wght@700;900&family=Rubik&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/index.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="main-page">
     <header class="header" id="header">
@@ -63,7 +75,7 @@
             </ul>
         </div>
     </header>
-    <section class="hero" id="hero">
+    <section class="hero" id="hero" data-aos="fade-right">
         <div class="container">
             <h1 class="main-article">Мовні Курси Для кожного</h1>
             <p class="hero__text">Складемо програму навчання, згідно вашим інтересам, підберемо уроки з найактуальніших тем під ваші запити та цілі.</p>
@@ -83,17 +95,17 @@
             <p class="selection__sub-article">Наші курси</p>
             <h2 class="selection__article">Широкий спектр курсів</h2>
             <ul class="selection__list list">
-                <li class="little-grp tablet-edt little-grp-tabl-edt desktop-edt">
+                <li class="little-grp tablet-edt little-grp-tabl-edt desktop-edt" data-aos="flip-left">
                     <img src="./images/main/work.png" alt="little-group-picture" class="little-grp__img">
                     <h3 class="little-grp__article little-grp-tabl-edt-article">Індивідуальні заняття</h3>
-                    <p class="little-grp__sub-article little-grp-tabl-edt-sub-article">Персональна программа та темп навчання</p>
+                    <p class="little-grp__sub-article little-grp-tabl-edt-sub-article">Персональна програма та темп навчання</p>
                     <a href="#price" class="little-grp__btn link">Обрати курс
                         <svg class="selection__btn-svg">
                             <use href="./images/svgs/symbol-defs.svg#icon-selection__btn-svg"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="middle-grp tablet-edt middle-grp-tabl-edt desktop-edt">
+                <li class="middle-grp tablet-edt middle-grp-tabl-edt desktop-edt" data-aos="flip-left">
                     <img src="./images/main/discussion.png" alt="middle-group-picture" class="little-grp__img">
                     <h3 class="middle-grp__article middle-grp-tabl-edt-article">Маленька група</h3>
                     <p class="middle-grp__sub-article middle-grp-tabl-edt-sub-article">Від 5 до 10 чоловік</p>
@@ -103,7 +115,7 @@
                         </svg>
                     </a>
                 </li>
-                <li class="little-grp tablet-edt desktop-edt">
+                <li class="little-grp tablet-edt desktop-edt" data-aos="flip-left">
                     <img src="./images/main/meeting.png" alt="higher-group-picture" class="little-grp__img">
                     <h3 class="little-grp__article">Велика група</h3>
                     <p class="little-grp__sub-article">Від 10 до 15 чоловік</p>
@@ -113,7 +125,7 @@
                         </svg>
                     </a>
                 </li>
-                <li class="tablet-edt desktop-edt">
+                <li class="tablet-edt desktop-edt" data-aos="flip-left">
                     <p class="selection-list-last__text">Бронюйте місце у групі та вирушайте у подорож іноземних мов!</p>
                     <a href="#contact-form" class="selection-list-last__btn link">Забронювати місце
                         <svg class="selection-list-last__btn-svg">
@@ -128,7 +140,8 @@
     <section class="about-us" id="about-us">
         <div class="container">
             <h2 class="about-us__article">Трішки про нас</h2>
-            <ul class="about-us__list list">
+            <ul class="about-us__list list" data-aos="fade-up"
+            data-aos-duration="3000">
                 <li>
                     <p class="about-us__text mobile-edt">Досвідченні викладачі</p>
                 </li>
@@ -168,7 +181,7 @@
             <p class="price__sub-article">Ціни та плани</p>
             <h2 class="price__article">Наші тарифні плани</h2>
             <ul class="price__lists list">
-                <li class="price__list-individual">
+                <li class="price__list-individual" data-aos="flip-right">
                 <div class="top-part">
                     <p class="top-part__sub-article">Індивідуальні Заняття</p>
                     <h3 class="top-part__article">€ 15.00</h3>
@@ -177,7 +190,7 @@
                 <div class="bottom-part">
                     <h3 class="bottom-part__article">Англійська Німецька Чешська Польска</h3>
                     <ul class="bottom-part__list list">
-                        <li><p class="bottom-part__list-text">Індивідуальна программа</p></li>
+                        <li><p class="bottom-part__list-text">Індивідуальна програма</p></li>
                         <li><p class="bottom-part__list-text list-text-second">Можливість будувати графік</p></li>
                         <li><p class="bottom-part__list-text list-text-third">Персональні дз</p></li>
                         <li><p class="bottom-part__list-text list-text-fourth">Вирішення пресональних проблем</p></li>
@@ -185,7 +198,7 @@
                     <a href="#contact-form" class="bottom-part__btn link">Обрати Курс</a>
                 </div>
                 </li>
-                <li class="price__list-individual big-grp">
+                <li class="price__list-individual big-grp" data-aos="flip-right">
                 <div class="top-part top-part__big">
                     <p class="top-part__sub-article sub-article__big">Велика Группа</p>
                     <h3 class="top-part__article article__big">€ 200.00</h3>
@@ -201,7 +214,7 @@
                             <p class="bottom-part__list-text text__big text-big-second">Креативні заннятя на комунікацію</p>
                         </li>
                         <li>
-                            <p class="bottom-part__list-text text__big text-big-third">Чітка программа</p>
+                            <p class="bottom-part__list-text text__big text-big-third">Чітка програма</p>
                         </li>
                         <li>
                             <p class="bottom-part__list-text text__big text-big-fourth">Перевірка рівня кожен місяць</p>
@@ -210,7 +223,7 @@
                     <a href="#contact-form" class="bottom-part__btn link">Обрати Курс</a>
                 </div>
                 </li>
-                <li class="price__list-individual">
+                <li class="price__list-individual" data-aos="flip-right">
                 <div class="top-part">
                     <p class="top-part__sub-article">Маленька Группа</p>
                     <h3 class="top-part__article">€ 250.00</h3>
@@ -226,7 +239,7 @@
                             <p class="bottom-part__list-text list-text-second">Рівномірне приділення часу</p>
                         </li>
                         <li>
-                            <p class="bottom-part__list-text list-text-third">Адаптивна программа</p>
+                            <p class="bottom-part__list-text list-text-third">Адаптивна програма</p>
                         </li>
                         <li>
                             <p class="bottom-part__list-text list-text-fourth">Можливість повторення матер’ялу</p>
@@ -246,7 +259,7 @@
                 <li>
                     <div class="reviewes__content">
                         <ul class="reviewes-content__list list">
-                            <li class="reviewes__light reviewes__light-desktop">
+                            <li class="reviewes__light reviewes__light-desktop" data-aos="zoom-in">
                                 <p class="reviewes-content__main-text-light">Обрав курс індивідуальних занять. За 6 місяців навчання вивчив
                                     Англійську з рівня A2 до B2. Я й подумати не міг, що я
                                     зможу так підтягнути свої знання за такий короткий час. Тепер я можу вільно спілкуватися англійською!</p>
@@ -256,7 +269,7 @@
                                 <img src="./images/phone/reviewes__mobile-photo-second.png" alt="reviewer's-face"
                                     class="reviewes__mobile-photo-second">
                             </li>
-                            <li class="reviewes__dark">
+                            <li class="reviewes__dark" data-aos="zoom-in">
                                 <p class="reviewes-content__main-text-dark">Прийшов на курс з нульовим рівнем німецької. Ні в університеті, ні на курсах ніяк не виходило вивчити цю складну мову.
                                 Але після першого заняття в цій школі, я зрозумів, що це не тільки легко, але й неймвовірно цікаво!</p>
                                 <h3 class="reviewes-content__article">Віктор</h3>
@@ -264,7 +277,7 @@
                                 <img src="./images/main/reviewes__stars-img.png" alt="stars" class="reviewes__stars-img">
                                 <img src="./images/phone/reviewes__mobile-photo-first.png" alt="reviewer's-face" class="reviewes__mobile-photo-first">
                             </li>
-                            <li class="reviewes__light reviewes__tablet-edt">
+                            <li class="reviewes__light reviewes__tablet-edt" data-aos="zoom-in">
                                 <p class="reviewes-content__main-text-light">По рекомендації друзів, пішла на ці курси. За ці 5 місяців навчання прогрес ВЕЛИЧЕЗНИЙ. Як показують тести, за 5 місяців
                                 я вийшла майже на Б1 з Німецької мови. Дуже задоволена, рекомендую!</p>
                                 <h3 class="reviewes-content__article-light">Марія</h3>
@@ -288,7 +301,7 @@
                 <div class="text-content_main-text">
                     <p>
                         Годі вже читати,<br />
-                        це легше чим ти думаєш!)
+                        це легше, чим ти думаєш!)
                     </p>
                 </div>
                 <div class="text-content_secondary-text">
@@ -316,7 +329,7 @@
                     </div>
                 </div>
             </div>
-            <div class="form-content">
+            <div class="form-content" data-aos="zoom-in-up">
                 <div class="form-content_block">
                     <form id="sentMessage" >
                         <script>
@@ -422,6 +435,10 @@
             </div>
         </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        AOS.init();
+    </script>
   <script src="./js/modal.js"></script>
 </body>
 </html>

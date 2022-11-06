@@ -11,3 +11,7 @@
 @import './contact-form.scss';
 @import './footer.scss';
 
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}

@@ -960,7 +960,7 @@ button {
   /* identical to box height, or 125% */
   text-align: center;
   /* color 6 */
-  color: #0D59EF;
+  color: #0d59ef;
 }
 
 .price__article {
@@ -972,9 +972,9 @@ button {
   /* or 115% */
   text-align: center;
   letter-spacing: -1px;
-  color: #DFDFDF;
+  color: #dfdfdf;
   padding-bottom: 8px;
-  border-bottom: 1.5px solid #FD346E;
+  border-bottom: 1.5px solid #fd346e;
   margin-bottom: 46px;
 }
 
@@ -989,8 +989,8 @@ button {
   padding-top: 50px;
   padding-bottom: 28px;
   padding-left: 50px;
-  background: #FFFFFF;
-  border: 1px solid #EBEFF6;
+  background: #ffffff;
+  border: 1px solid #ebeff6;
   border-radius: 10px;
 }
 
@@ -1002,7 +1002,7 @@ button {
   line-height: 28px;
   /* identical to box height, or 140% */
   /* color 3 */
-  color: #01D2A1;
+  color: #01d2a1;
   opacity: 0.8;
   margin-bottom: 15px;
 }
@@ -1015,7 +1015,7 @@ button {
   line-height: 42px;
   /* or 140% */
   letter-spacing: -1px;
-  color: #25373F;
+  color: #25373f;
 }
 
 .top-part__under-article {
@@ -1041,7 +1041,6 @@ button {
   font-size: 16px;
   line-height: 28px;
   /* identical to box height, or 175% */
-  text-align: center;
   /* Color 2 Text */
   color: #042552;
   margin-bottom: 29px;
@@ -1109,7 +1108,7 @@ button {
   width: 185px;
   height: 60px;
   /* color 6 */
-  border: 2px solid #0D59EF;
+  border: 2px solid #0d59ef;
   border-radius: 50px;
   background-color: transparent;
   font-family: "Manrope";
@@ -1123,12 +1122,12 @@ button {
   /* identical to box height, or 144% */
   text-align: center;
   /* color 6 */
-  color: #0D59EF;
+  color: #0d59ef;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .bottom-part__btn:hover, .bottom-part__btn:focus {
-  color: #FFFFFF;
-  background-color: #0D59EF;
+  color: #ffffff;
+  background-color: #0d59ef;
 }
 
 .price-list__icons {
@@ -1158,25 +1157,25 @@ button {
 }
 
 .sub-article__big {
-  color: #FFB619;
+  color: #ffb619;
   opacity: 0.8;
 }
 
 .article__big {
-  color: #DFDFDF;
+  color: #dfdfdf;
 }
 
 .under-article__big {
-  color: #DFDFDF;
+  color: #dfdfdf;
   opacity: 0.7;
 }
 
 .top-part__big {
-  border-bottom: 1px solid #DFDFDF;
+  border-bottom: 1px solid #dfdfdf;
 }
 
 .text__big {
-  color: #DFDFDF;
+  color: #dfdfdf;
 }
 .text__big::before {
   background-image: url(../images/main/price-list__icon.png);
@@ -1214,7 +1213,7 @@ button {
 }
 
 .btm-art-big {
-  color: #DFDFDF;
+  color: #dfdfdf;
 }
 
 @media screen and (min-width: 770px) {
@@ -1929,4 +1928,8 @@ button {
   .footer-social_icons {
     margin-bottom: 20%;
   }
+}
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }/*# sourceMappingURL=index.css.map */
