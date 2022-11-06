@@ -23,6 +23,11 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/index.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body class="main-page">
     <header class="header" id="header">
@@ -332,6 +337,29 @@
             <div class="form-content" data-aos="zoom-in-up">
                 <div class="form-content_block">
                     <form id="sentMessage" >
+                        <div class="form-content_text-block">
+                            <div class="form-content_text-block_inputs">
+                                <p>Ваше Ім'я</p>
+                                <input  name="name" required type="text" placeholder="Ivan Ivanov" />
+                                <div class="line"></div>
+                            </div>
+                            <div class="form-content_text-block_inputs">
+                                <p>Ваш номер Телефону</p>
+                                <input  name="phone" required type="text" placeholder="+380 (67) 999 99 99" />
+                                <div class="line"></div>
+                            </div>
+                            <div class="form-content_text-block_inputs">
+                                <p>Як з Вами зручніше зв'язатися</p>
+                                <input  name="type" type="text" placeholder="telegram" />
+                                <div class="line"></div>
+                            </div>
+                            <div class="form-content_text-block_inputs">
+                                <p>Побажання</p>
+                                <input  name="message" type="text" placeholder="Гарного дня!" />
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <button id="sendButton" type="submit" class="form-button">Надіслати</button>
                         <script>
                             var form = document.getElementById("sentMessage");
                             form.addEventListener("submit", function (e) {
@@ -363,29 +391,6 @@
                               e.target.reset();
                             });
                           </script>
-                        <div class="form-content_text-block">
-                            <div class="form-content_text-block_inputs">
-                                <p>Ваше Ім'я</p>
-                                <input  name="name" required type="text" placeholder="Ivan Ivanov" />
-                                <div class="line"></div>
-                            </div>
-                            <div class="form-content_text-block_inputs">
-                                <p>Ваш номер Телефону</p>
-                                <input  name="phone" required type="text" placeholder="+380 (67) 999 99 99" />
-                                <div class="line"></div>
-                            </div>
-                            <div class="form-content_text-block_inputs">
-                                <p>Як з Вами зручніше зв'язатися</p>
-                                <input  name="type" type="text" placeholder="telegram" />
-                                <div class="line"></div>
-                            </div>
-                            <div class="form-content_text-block_inputs">
-                                <p>Побажання</p>
-                                <input  name="message" type="text" placeholder="Гарного дня!" />
-                                <div class="line"></div>
-                            </div>
-                        </div>
-                        <button id="sendButton" type="submit" class="form-button">Надіслати</button>
                     </form>
                 </div>
             </div>
