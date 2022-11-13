@@ -60,7 +60,7 @@ button {
   }
 }
 .main-page {
-  background-color: #19191B;
+  background-color: #19191b;
 }
 
 .header__mobile-menu-btn {
@@ -87,7 +87,7 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__mobile-icon:hover, .header__mobile-icon:focus {
-  color: #5454D4;
+  color: #5454d4;
 }
 
 .mobile-menu__close-icon {
@@ -97,7 +97,7 @@ button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile-menu__close-icon:hover, .mobile-menu__close-icon:focus {
-  fill: #5454D4;
+  fill: #5454d4;
 }
 
 .backdrop {
@@ -107,7 +107,7 @@ button {
   width: 100%;
   height: 100%;
   overflow-y: auto;
-  background-color: #19191B;
+  background-color: #19191b;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -137,11 +137,11 @@ button {
   font-weight: 700;
   font-size: 28px;
   line-height: 34px;
-  color: #FFFFFF;
+  color: #ffffff;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile-menu__nav-text:hover, .mobile-menu__nav-text:focus {
-  color: #5454D4;
+  color: #5454d4;
 }
 
 .mobile-menu__form-btn {
@@ -151,8 +151,8 @@ button {
   font-size: 20px;
   line-height: 27px;
   text-align: center;
-  color: #FFFFFF;
-  background-color: #5454D4;
+  color: #ffffff;
+  background-color: #5454d4;
   border: none;
   border-radius: 4px;
   width: 95%;
@@ -163,7 +163,7 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile-menu__form-btn:hover, .mobile-menu__form-btn:focus {
-  color: #5454D4;
+  color: #5454d4;
   background-color: #fff;
 }
 
@@ -180,7 +180,7 @@ button {
   font-size: 20px;
   line-height: 27px;
   text-align: center;
-  color: #5454D4;
+  color: #5454d4;
 }
 
 .mobile-menu__social-links {
@@ -246,7 +246,7 @@ button {
     color: rgba(255, 255, 255, 0.7);
   }
   .nav__link:hover, .nav__link:focus {
-    color: #5454D4;
+    color: #5454d4;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -260,7 +260,7 @@ button {
   }
   .nav__button {
     background-color: transparent;
-    border: 0.66369px solid #FFFFFF;
+    border: 0.66369px solid #ffffff;
     backdrop-filter: blur(0.66369px);
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 3.31845px;
@@ -276,11 +276,11 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .nav__button:hover, .nav__button:focus {
-    color: #5454D4;
-    border-color: #5454D4;
+    color: #5454d4;
+    border-color: #5454d4;
   }
   .navigation {
     display: flex;
@@ -303,7 +303,7 @@ button {
   line-height: 78px;
   /* or 156% */
   letter-spacing: 1px;
-  color: #DFDFDF;
+  color: #dfdfdf;
   width: 327px;
   height: 234px;
   margin-top: 41px;
@@ -322,7 +322,7 @@ button {
 }
 
 .hero__btn {
-  background-color: #5454D4;
+  background-color: #5454d4;
   border: none;
   width: 166px;
   height: 44px;
@@ -335,25 +335,25 @@ button {
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-left: 10px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero__btn:hover, .hero__btn:focus {
-  color: #5454D4;
+  color: #5454d4;
   background-color: #fff;
 }
 
 .hero__btn:hover .hero__btn-svg,
 .hero__btn:focus .hero__btn-svg {
-  fill: #5454D4;
+  fill: #5454d4;
 }
 
 .hero__btn-svg {
   width: 15px;
   height: 16px;
-  fill: #FFFFFF;
+  fill: #ffffff;
   margin-left: 8px;
 }
 
@@ -375,7 +375,7 @@ button {
 }
 @media screen and (min-width: 770px) and (max-width: 1299px) {
   .hero {
-    background-image: url(../images/tablet/hero__bg-tablet.png);
+    background-image: url(../images/tablet/hero__bg-tablet.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 100% 0px;
